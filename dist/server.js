@@ -12,4 +12,6 @@ try {
         console.log(`Example app listening on port ${config_1.default.port}`);
     });
 }
-catch (error) { }
+catch (error) {
+    console.log(error);
+}
